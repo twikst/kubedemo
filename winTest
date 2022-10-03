@@ -1,0 +1,2 @@
+Invoke-WebRequest -UseBasicParsing "https://raw.githubusercontent.com/kubernetes-sigs/sig-windows-tools/master/kubeadm/scripts/Install-Containerd.ps1" -o install-containerd-runtime.ps1
+.\install-containerd-runtime.ps1
