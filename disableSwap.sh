@@ -1,5 +1,5 @@
-# First diasbale swap
+# First disable swap
 sudo swapoff -a
 
-# And then to disable swap on startup in /etc/fstab
+# And then disable swap on startup in /etc/fstab
 sudo sed -i '/ swap / s/^\(.*\)$/#\1/g' /etc/fstab
